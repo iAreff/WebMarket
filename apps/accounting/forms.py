@@ -1,4 +1,6 @@
-from django.forms import CharField, Form, ModelForm, PasswordInput, TextInput, ValidationError
+from django.forms import (Form, ModelForm, ValidationError,
+                          CharField,
+                          PasswordInput, TextInput,)
 from .models import CustomUser
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.utils.translation import gettext
